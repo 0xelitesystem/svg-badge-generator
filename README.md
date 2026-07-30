@@ -35,6 +35,10 @@ Why not a badge service: a hosted badge is an external request on every README v
 
 Everything runs in your browser. Nothing you type is uploaded, logged, or sent anywhere. The page makes zero network requests and works offline once loaded.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT
