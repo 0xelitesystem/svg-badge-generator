@@ -210,6 +210,35 @@ footer a:hover{color:var(--accent)}
   .checker{padding:.7rem}
 }
 </style>
+<style>
+/* elitesystem brand tokens: chrome only, meaning preserved */
+:root, :root[data-theme="dark"] {
+  --accent: #d4ff3a;
+  --accent-ink: #0a0a0a;
+  --accent-soft: rgba(212,255,58,0.12);
+  --bg: #0a0a0a;
+  --border: #1f1f1d;
+  --code-bg: #111110;
+  --grid: #1f1f1d;
+  --muted: #6e6e68;
+  --panel: #111110;
+  --text: #e8e8e3;
+}
+:root[data-theme="light"] {
+  --accent: #2d6b00;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(45,107,0,0.08);
+  --bg: #e8ebef;
+  --border: #c8cdd5;
+  --code-bg: #dee2e8;
+  --grid: #c8cdd5;
+  --muted: #6e6e68;
+  --panel: #dee2e8;
+  --text: #0a0a0a;
+}
+:root { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
