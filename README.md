@@ -2,9 +2,18 @@
 
 Generate README status badges as pure inline SVG with copy-ready markdown and HTML embeds - no badge service, no rate limits, works offline.
 
-## Live demo
+**Live demo:** https://0xelitesystem.github.io/svg-badge-generator/
 
-https://0xelitesystem.github.io/svg-badge-generator/
+## Use
+
+1. Type the label text and value text, or start from one of the quick presets.
+2. Pick the label and value background colors and a style: flat, flat-square, or for-the-badge.
+3. Check the preview on the light and dark backgrounds.
+4. Copy the raw SVG, one of the markdown embeds, or the HTML img tag, or click Download .svg.
+
+## Why this exists
+
+A hosted badge service sees every view of your README, can rate-limit you, and shows a broken image when it goes down. This tool builds the SVG locally so you can inline it or commit it, in one HTML file with no tracking, released under the MIT license.
 
 ## Features
 
@@ -34,6 +43,21 @@ Why not a badge service: a hosted badge is an external request on every README v
 ## Privacy
 
 Everything runs in your browser. Nothing you type is uploaded, logged, or sent anywhere. The page makes zero network requests and works offline once loaded.
+
+If you use the theme toggle, your light or dark choice is saved in your browser's localStorage under the key `sbg-theme`. Nothing else is stored.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/svg-badge-generator
+cd svg-badge-generator
+```
+
+Open `index.html` in a browser, or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one `index.html` file.
 
 ## More
 
